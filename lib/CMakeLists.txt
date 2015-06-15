@@ -1,0 +1,11 @@
+# lib list
+ADD_SUBDIRECTORY(argcvnw)
+
+#ADD_SUBDIRECTORY(librabbitmq)
+
+LINK_DIRECTORIES(${PROJECT_BINARY_DIR}/lib/argcvnw)
+
+#LINK_DIRECTORIES(${PROJECT_BINARY_DIR}/lib/librabbitmq)
+
+
+
